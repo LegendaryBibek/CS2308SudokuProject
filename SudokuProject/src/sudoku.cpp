@@ -88,6 +88,7 @@ tuple<int, int, int> findNextCell(int** BOARD) {
      * which helps in optimizing the backtracking process by reducing the branching factor.
      *
      * TODO:
+     * // First Priority
      * - Complete the nested for-loop to:
      *   1. Iterate over the Sudoku board.
      *   2. For each empty cell (value == 0), count the number of valid options (1-9) using `isValid()`.
